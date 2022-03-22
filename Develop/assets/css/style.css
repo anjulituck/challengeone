@@ -1,12 +1,18 @@
+/* Styling all content */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Styling Main Content Background Color */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* Header Stylings */
 
 .header {
     padding: 20px;
@@ -14,6 +20,8 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
+
+/* Styling Logo Next To Nav */
 
 .header h1 {
     display: inline-block;
@@ -23,6 +31,8 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/* Styling Navigation */
 
 .header nav {
     padding-top: 15px;
@@ -50,6 +60,8 @@ p {
     font-size: 16px;
 }
 
+/* Hero Pic Stylings */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -59,21 +71,55 @@ p {
     background-position: center;
 }
 
+/* Styling SEO and Social Media Marketing Positions */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
+/*Styling Online Reputation Management Section Positions */
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Styling SEO, Online Reputation Managment & Social Media Marketing Overall Section Positions, Size of Container & Display View To Stack Appropriately */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Styling the Content Sub-Sections With Position, Background Color, Text Color, & Height; Consolidated Classes since they have same css properties and declarations */
+
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styling SEO, Online Reputation Managment, & Social Media Marketing Imgs With Max Height; Consolidated Classes since they have same css properties and declarations */
+
+
+.search-engine-optimization img , .online-reputation-management img , .social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Styling SEO, Online Reputation Managment, & Social Media Marketing Headings With Margin & Text Size; Consolidated Classes since they have same css properties and declarations */
+
+
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styling Benefits Main Container With Position, Size of Container, Height, Background Color and Font Styles */
 
 .benefits {
     margin-right: 20px;
@@ -86,15 +132,21 @@ p {
     background-color: #2589bd;
 }
 
+/* Styling the Benefit Sub-Sections With Color & Margin; Consolidated Classes since they have same css properties and declarations */
+
 .benefit-lead, .benefit-brand, .benefit-cost{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Styling the Benefit Sub-sections Headings with Positions and Text Align; Consolidated Classes since they have same css properties and declarations */
+
 .benefit-lead h3 , .benefit-brand h3 ,.benefit-cost h3{
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* Styling the Benefit Sub-Sections Imgs With Posiiton & Display; Consolidated Classes since they have same css properties and declarations */
 
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
@@ -102,23 +154,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img , .online-reputation-management img , .social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Styling The Footer */
 
 .footer {
     padding: 30px;
@@ -127,6 +163,8 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* Styling The Footer Heading*/
+
+.footer h4 {
     font-size: 20px;
 }
