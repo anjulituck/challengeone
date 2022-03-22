@@ -6,4 +6,4 @@
 
 ## Visuals 
 
-####### Here is what the website is suppose to look; ![ Horiseo Website Mockup](Develop/assets/images/01-html-css-git-homework-demo.png)
+####### Here is what the website is suppose to look; ![Horiseo Website Mockup](Develop/assets/images/01-html-css-git-homework-demo.png)
